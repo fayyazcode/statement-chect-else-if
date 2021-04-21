@@ -22,18 +22,32 @@
 //Q2********************************************
 
 
-var first=+prompt("Enter First Number")
-var second=+prompt("Enter second Number")
+// var first=+prompt("Enter First Number")
+// var second=+prompt("Enter second Number")
 
-if(first>second){
-    alert(first+" Is Greater")
+// if(first>second){
+//     alert(first+" Is Greater")
+// }
+// else if(second>first){
+//     alert(second+" is Greater")
+// }
+// else if(first===second){
+//     alert("Both numbers are equal")
+// }
+// else{
+//     alert("Invalid input")
+// }
+
+//Q3************************************************
+var number=+prompt("Enter a Number")
+
+if(number==0){
+    alert("Number is 0")
 }
-else if(second>first){
-    alert(second+" is Greater")
+else if(number<0){
+    alert("Number is Negative")
+
 }
-else if(first===second){
-    alert("Both numbers are equal")
-}
-else{
-    alert("Invalid input")
+else if(number>0){
+    alert("Number is Positive")
 }
