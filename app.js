@@ -75,3 +75,20 @@
 // else{
 //     alert("false")
 // }
+
+
+
+//Q5********************************
+    // var pass="password"
+
+    // var passcheck=prompt("Enter your password")
+
+    // if(passcheck= " "){
+    //     alert("Enter password")
+    // }
+    // else if(pass==passcheck){
+    //     alert("Correct Password !")
+    // }
+    // else{
+    //     alert("Incorrect Password")
+    // }
